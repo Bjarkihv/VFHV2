@@ -1,0 +1,53 @@
+.title {
+  display: flex;
+  height: 20px;
+  margin: 5px 0;
+  overflow: hidden;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.duration {
+  position: absolute;
+  right: 5px;
+  bottom: 12px;
+  z-index: 99;
+  padding: 3px 5px;
+  margin-bottom: 5px;
+  color: #eee;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.length {
+  font-weight: bold;
+}
+
+.poster {
+  position: relative;
+  width: 44em;
+  height: 100%;
+  overflow: hidden;
+}
+
+.category {
+  display: flex;
+  color: #eee;
+  flex-direction: column;
+  align-content: center;
+}
+
+.myndbond {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.myndband {
+  display: flex;
+  max-width: 310px;
+  margin-right: 16em;
+  margin-bottom: 2em;
+  flex-direction: column;
+  align-self: center;
+}

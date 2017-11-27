@@ -1,0 +1,53 @@
+/* setjum box-sizing: border-box; á allt */
+
+html { /* stylelint-disable-line */
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  /* stylelint-disable-line */
+  box-sizing: inherit;
+
+  /* fjarlægjum margin og padding */
+  padding: 0;
+  margin: 0;
+}
+
+html { /* stylelint-disable-line */
+  font-family: helvetica, arial, sans-serif;
+  font-size: 10px;
+  line-height: 1.5;
+  background-color: #333;
+}
+
+main { /* stylelint-disable-line */
+  display: flex;
+  max-width: 1030px;
+  height: 100%;
+  padding: 20px;
+  margin: 0 auto;
+  color: #eee;
+  flex-direction: column;
+}
+
+body { /* stylelint-disable-line */
+  background: #333;
+}
+
+img { /* stylelint-disable-line */
+  max-width: 100%;
+}
+
+hr { /* stylelint-disable-line */
+  padding-bottom: 30px;
+  margin: 2em 16em 4em 8em;
+  border: 0;
+  border-bottom: 1px solid #999;
+}
+
+@import "scss/list";
+@import "scss/video";
+@import "scss/heading";
+@import "scss/buttons";

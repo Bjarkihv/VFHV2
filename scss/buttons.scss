@@ -1,0 +1,68 @@
+.btn {
+  width: 6em;
+  height: 4em;
+  cursor: pointer;
+  border: unset;
+}
+
+.backbtn {
+  background: url("gogn/img/back.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.pausebtn {
+  background: url("gogn/img/pause.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.playbtn {
+  background: url("gogn/img/play.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.muteunmutebtn {
+  width: 13em;
+  height: 8em;
+  cursor: pointer;
+  border: unset;
+}
+
+.mutebtn {
+  background: url("gogn/img/mute.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.unmutebtn {
+  background: url("gogn/img/unmute.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.fullscreenbtn {
+  background: url("gogn/img/fullscreen.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.nextbtn {
+  background: url("gogn/img/next.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.videoPlayButton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 4.5em;
+  padding: 5em;
+  transform: translate(-50%, -50%);
+}
+
+.videoPlayButton__hidden {
+  display: none;
+}

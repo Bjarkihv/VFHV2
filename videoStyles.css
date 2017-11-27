@@ -1,0 +1,77 @@
+body {
+  background: #333;
+}
+
+#video_player_box {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+}
+
+#my_video {
+  width: 100%;
+  height: 100%;
+}
+
+#video_controls_bar {
+  background: #333;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  width: 128px;
+  height: 82px;
+}
+
+.backbtn {
+  background: url(gogn/img/back.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.pausebtn {
+  background: url(gogn/img/pause.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.playbtn {
+  background: url(gogn/img/play.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.muteunmutebtn {
+  border: none;
+  cursor: pointer;
+  width: 128px;
+  height: 82px;
+}
+
+.mutebtn {
+  background: url(gogn/img/mute.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.unmutebtn {
+  background: url(gogn/img/unmute.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.fullscreenbtn {
+  background: url(gogn/img/fullscreen.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.nextbtn {
+  background: url(gogn/img/next.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}

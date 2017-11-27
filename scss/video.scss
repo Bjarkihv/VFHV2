@@ -1,0 +1,45 @@
+.return {
+  margin-top: 1em;
+  margin-right: 2em;
+  font-size: 2em;
+  color: #eee;
+  align-self: center;
+  text-decoration: none;
+}
+
+#video_player_box { /* stylelint-disable-line */
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+#error_box { /* stylelint-disable-line */
+  display: flex;
+  margin-top: 20em;
+  flex-direction: column;
+  flex: 1 0 auto;
+}
+
+#my_video { /* stylelint-disable-line */
+  width: 97%;
+  height: 100%;
+  margin: 1em;
+}
+
+#video_controls_bar { /* stylelint-disable-line */
+  display: flex;
+  padding: 1em;
+  background: #333;
+  justify-content: center;
+}
+
+#videoSpilari { /* stylelint-disable-line */
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+}
+
+.the_video {
+  width: 100%;
+  height: 100%;
+}
