@@ -2,7 +2,7 @@
   "name": "verkefni6",
   "version": "0.6.0",
   "description": "Verkefni 6 í vefforritun 2017",
-  "main": "index.js",
+  "main": "scripts.js",
   "scripts": {
     "browser-sync": "browser-sync start --server --files index.html styles.css",
     "sass": "node-sass styles.scss styles.css -w",
@@ -11,7 +11,7 @@
     "eslint": "eslint *.js",
     "stylelint": "stylelint *.scss scss/*.scss --syntax scss",
     "lint": "npm-run-all --parallel eslint stylelint",
-    "start": "node index.js"
+    "start": "node scripts.js"
   },
     "eslintConfig": {
         "env": {
