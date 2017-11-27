@@ -10,7 +10,8 @@
     "babel": "babel script.js --watch --out-file script-compiled.js --source-maps",
     "eslint": "eslint *.js",
     "stylelint": "stylelint *.scss scss/*.scss --syntax scss",
-    "lint": "npm-run-all --parallel eslint stylelint"
+    "lint": "npm-run-all --parallel eslint stylelint",
+    "start": "node index.js"
   },
     "eslintConfig": {
         "env": {
